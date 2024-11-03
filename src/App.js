@@ -5,7 +5,7 @@ import MovieCard from "./MovieCard";
 
 
 //d25e68f7
- const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=d25e68f7';
+ const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=d25e68f7';
 
  const movie1 ={
     
@@ -34,7 +34,8 @@ const App = () => {
         <div className="app">
             <h1>MovieLand</h1>
 
-            <div className="search">
+            <div className="search">   
+                 
                 <input
                     placeholder="search for movies"
                     value={searchTerm}
